@@ -76,5 +76,7 @@
         rev="${velocity.version}" conf="compile->master" />
     <dependency name="velocity-tools" org="org.apache.velocity"
         rev="${velocity-tools.version}" conf="compile->master" />
+    <dependency name="unboundid-ldapsdk" org="com.unboundid"
+        rev="${unboundid-ldapsdk.version}" conf="compile->master" />
   </dependencies>
 </ivy-module>
